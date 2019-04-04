@@ -18,6 +18,9 @@ docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=u
 - RABBITMQ_DEFAULT_USER : Usuário de acesso (admin e cliente)
 - RABBITMQ_DEFAULT_PASS : Senha de acesso (admin e cliente)
 
+Acesso página administrador: localhost:15672
+Acesso produtor e consumidor: localhost:5672
+
 ### docker-compose.yml
 ```ruby
 version: '3'
