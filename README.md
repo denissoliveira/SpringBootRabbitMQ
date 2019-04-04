@@ -28,9 +28,9 @@ Acesso produtor e consumidor: localhost:5672
 ```ruby
 version: '3'
 services:
-  my-rabbitmq:
+  some-rabbit:
     image: rabbitmq:3-management
-    hostname: fasolti-rabbitmq
+    hostname: my-rabbit
     ports:
       - "15672:15672"
       - "5672:5672"
